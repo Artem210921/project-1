@@ -342,6 +342,7 @@ padding: 76px 188px 88px 51px;
 }
 
 .interviews {
+  max-width: none;
   margin-top: 162px;
   max-height: 480px;
 }
@@ -370,4 +371,5 @@ padding: 76px 188px 88px 51px;
   font-size: 18px;
   text-align: center;
 }
+
 
