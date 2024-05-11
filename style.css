@@ -271,3 +271,67 @@ padding: 76px 188px 88px 51px;
   font-size: 36px;
 }
 
+
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+.feauture-title {
+  text-align: center;
+  padding-top: 190px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.item {
+  text-align: center;
+  padding-top: 69px;
+  width: 338px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.ball1 {
+  width: 70px; 
+  height: 70px;
+  background: #21F7EC;
+  border-radius: 50%;
+}
+.ball2 {
+  width: 70px; 
+  height: 70px;
+  background: #33D3BC;
+  border-radius: 50%;
+}
+.ball3 {
+  width: 70px; 
+  height: 70px;
+  background: #18A5C6;
+  border-radius: 50%;
+}
+.ball4 {
+  width: 70px; 
+  height: 70px;
+  background: #D38F62;
+  border-radius: 50%;
+}
+.ball5 {
+  width: 70px; 
+  height: 70px;
+  background: #F94C43;
+  border-radius: 50%;
+}
+.ball6 {
+  width: 70px; 
+  height: 70px;
+  background: #D399FF;
+  border-radius: 50%;
+}
+
