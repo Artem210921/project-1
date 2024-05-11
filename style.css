@@ -163,7 +163,6 @@ padding: 76px 188px 88px 51px;
 }
 
 .culture__text {
- 
   line-height: 42px;
   font-size: 36px;
   padding: 31px 0px;
@@ -177,7 +176,6 @@ padding: 76px 188px 88px 51px;
   height:525px;
   width: 1200px;
   
- 
 }
 
 .culture__container {
@@ -334,4 +332,44 @@ padding: 76px 188px 88px 51px;
   background: #D399FF;
   border-radius: 50%;
 }
+
+.interviews-title {
+  position: relative;
+  padding-top:  163px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.interviews {
+  max-width: none;
+  margin-top: 162px;
+  max-height: 480px;
+}
+
+.quoets {
+  padding-top: 102px;
+  display: flex;
+  gap: 100px;
+}
+
+.interviews__text-block {
+  padding-top:35px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.author {
+  font-size: 19px;
+  text-align: center;
+  padding: 34px 0 44px;
+}
+.interviews__link {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
 
