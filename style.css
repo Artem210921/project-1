@@ -94,7 +94,6 @@ button {
   margin-bottom: 26px;
 }
 
-
 .introduction__button {
   color: #FFFFFF;
   background-color: #000000;
@@ -121,18 +120,14 @@ button {
   background-color: #CCCCCC4D ;
   font-size: 36px;
   padding: 76px 188px 51px 88px;
-  
 }
 
 
 
 .people__container {
-display: flex;
-padding: 76px 188px 88px 51px;
-
+  display: flex;
+  padding: 76px 188px 88px 51px;
 }
-
-
 
 .people__text-block {
   font-size: 36px;
@@ -211,13 +206,11 @@ padding: 76px 188px 88px 51px;
   gap: 30px;
   text-align: center;
   margin: 60px 0 90px 0;
-  
 }
 
 .guides-text {
   width: 632px;
   font-size: 20px;
-
 }
 
 .header__guides {
@@ -268,8 +261,6 @@ padding: 76px 188px 88px 51px;
 .header__best-sellers {
   font-size: 36px;
 }
-
-
 
 .colors {
     display: flex;
@@ -342,9 +333,21 @@ padding: 76px 188px 88px 51px;
 }
 
 .interviews {
+  position: relative;
   max-width: none;
-  margin-top: 162px;
-  max-height: 480px;
+  margin: 162px 0 130px 0 ;
+}
+
+.interviews::after {
+  z-index: -1;
+  position: absolute;
+  content: '';
+  background-color: #F0F0F0;
+  min-width: none;
+  width: 100%;
+  height: 480px;
+  left: 0;
+  top: 550px;
 }
 
 .quoets {
@@ -370,6 +373,72 @@ padding: 76px 188px 88px 51px;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  max-width: 129px;
+  align-items: center;
+  gap:25px;
+}
+
+.media__social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.about-us {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+
+.container-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 51px 0 0 0;
+}
+
+.about-us__info__title {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 0 35px 0;
+}
+
+.contact__info__title {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 0 35px 0;
+}
+
+.about-us__list {
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.contact__info {
+  margin: 0 0 0 155px;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 0 0 16px 0;
 }
 
 
