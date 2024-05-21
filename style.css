@@ -24,6 +24,11 @@ button {
   border: none;
 }
 
+button:hover {
+  transition: 0.3s all ease ;
+  background-color: rgb(78, 78, 78);
+}
+
 .header {
   padding: 16px 0;
 }
@@ -142,8 +147,6 @@ button {
   width: 500px;
   height: 260px;
   font-size: 36px;
-  
-
 }
 
 .People__title {
@@ -199,7 +202,7 @@ button {
   padding: 76px 188px 88px 51px;
 }
 
-.guides{
+.guides {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -263,10 +266,10 @@ button {
 }
 
 .colors {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 .feauture-title {
   text-align: center;
@@ -325,7 +328,6 @@ button {
 }
 
 .interviews-title {
-  position: relative;
   padding-top:  163px;
   text-align: center;
   font-weight: 700;
@@ -333,7 +335,12 @@ button {
 }
 
 .interviews {
+<<<<<<< HEAD
   position: relative;
+=======
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 35%);
+>>>>>>> bd97fec6ffa231a2a2b9a66f7dff80dcd4663257
   max-width: none;
   margin: 162px 0 130px 0 ;
 }
@@ -350,12 +357,6 @@ button {
   top: 550px;
 }
 
-.quoets {
-  padding-top: 102px;
-  display: flex;
-  gap: 100px;
-}
-
 .interviews__text-block {
   padding-top:35px;
   font-size: 22px;
@@ -363,11 +364,6 @@ button {
   text-align: center;
 }
 
-.author {
-  font-size: 19px;
-  text-align: center;
-  padding: 34px 0 44px;
-}
 .interviews__link {
   display: block;
   font-weight: 700;
@@ -375,6 +371,7 @@ button {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .footer {
   background-color: black;
   color: white;
@@ -441,4 +438,108 @@ button {
   padding: 0 0 16px 0;
 }
 
+=======
+.quotes{
+  margin: 0 0 51px 0;
+}
+>>>>>>> bd97fec6ffa231a2a2b9a66f7dff80dcd4663257
 
+.quotes-title {
+  background-color: white;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 162px 0 102px 0;
+  text-align: center;
+}
+
+.person {
+  max-width: 288px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.quotes__text-block {
+  padding: 35px 0 71px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.author {
+  padding-top: 40px; 
+  font-size: 19px;
+}
+
+.quotes-container {
+  display: flex;
+  gap: 100px;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.link-info {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 12px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  max-width: 129px;
+  align-items: center;
+  gap: 25px;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-container {
+  padding: 51px 0 0 0;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: row;
+  gap:25px ;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.about-us__title {
+  padding-bottom: 24px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+}
