@@ -108,20 +108,20 @@ button:hover {
   border-radius: 100px;
 }
 
-.People {
+.people {
   background-color:  #CCCCCC4D;
   font-size: 36px;
   padding: 76px 188px 51px 88px;
   
 }
 
-.Culture {
+.culture {
   background-color: #CCCCCC99;
   font-size: 36px;
   padding: 76px 188px 51px 88px;
 }
 
-.Power {
+.power {
   background-color: #CCCCCC4D ;
   font-size: 36px;
   padding: 76px 188px 51px 88px;
@@ -149,7 +149,7 @@ button:hover {
   font-size: 36px;
 }
 
-.People__title {
+.people__title {
   width: 320px;
   margin-bottom: 31px;
   font-size: 36px;
@@ -458,6 +458,7 @@ button:hover {
 
 .footer-container {
   padding: 51px 0 0 0;
+  margin-bottom: 20px;
 }
 
 .info-block {
@@ -469,7 +470,6 @@ button:hover {
 .footer-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   text-align: center;
   justify-content: space-between;
 }
@@ -535,4 +535,12 @@ input {
   padding: 7px 23px 10px;
   border-radius: 100px;
   margin: 0 0 88px 0;
+}
+
+.company {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
 }
