@@ -9,7 +9,6 @@ ul {
   list-style: none;
 }
 
-
 a, button {
   cursor: pointer;
 }
@@ -36,7 +35,7 @@ button:hover {
 .container {
   max-width: 1088px;
   margin: auto;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 .header__container {
@@ -44,11 +43,11 @@ button:hover {
   align-items: center;
 }
 
-
 .nav {
-  margin-right: 5.76vw;
+  display: flex;
   max-width: 423px;
   width: 100%;
+  gap:28px ;
 }
 
 .nav__list {
@@ -63,7 +62,7 @@ button:hover {
 }
 
 .logo {
-  margin-right: 26vw;
+  margin: 0 379px 0 83px;
 }
 
 .header__icons-wrapper {
@@ -127,8 +126,6 @@ button:hover {
   padding: 76px 188px 51px 88px;
 }
 
-
-
 .people__container {
   display: flex;
   padding: 76px 188px 88px 51px;
@@ -157,28 +154,23 @@ button:hover {
 
 .culture__title {
   font-size: 36px;
-  
 }
 
 .culture__text {
-  line-height: 42px;
   font-size: 36px;
   padding: 31px 0px;
 }
 
 .culture__text-block {
-  
   text-align: right;
   padding-top: 29px;
   padding-right: 50px;
-  height:525px;
-  width: 1200px;
-  
+  resize: none;
 }
 
 .culture__container {
   display: flex;
-  padding: 76px 188px 88px 51px;
+  gap: 50px;
 }
 
 .power__title {
@@ -193,13 +185,12 @@ button:hover {
 .power__text-block {
   max-width: 550px;
   max-height: 500px;
-  padding-left: 50px;
-  padding-top: 29px;
+  padding-top: 63px;
 }
 
 .power__container {
   display: flex;
-  padding: 76px 188px 88px 51px;
+  gap: 50px;
 }
 
 .guides {
@@ -412,7 +403,7 @@ button:hover {
 .quotes-container {
   position: relative;
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
 }
 
 .quotes::after {
@@ -423,6 +414,7 @@ button:hover {
   height: 480px;
   z-index: -1;
   top: 390px;
+  bottom: 0;
 }
 
 .footer {
@@ -522,25 +514,52 @@ input {
 }
 
 .input-first-name {
-  width: 153px;
+  width: 100%;
 }
 
 .input-last-name {
-  width: 153px;
+  width: 100%;
 }
 
 .input-button {
   background-color: #000000;
-  color: white;
+  color: #FFFFFF;
   padding: 7px 23px 10px;
   border-radius: 100px;
   margin: 0 0 88px 0;
 }
 
 .company {
-  color: white;
+  color: #FFFFFF;
   display: flex;
   justify-content: center;
   font-size: 14px;
   font-weight: 400;
+}
+
+
+
+
+
+/* MEDIA */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 992px) {
+  .body__image {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 552px) {
+
 }
